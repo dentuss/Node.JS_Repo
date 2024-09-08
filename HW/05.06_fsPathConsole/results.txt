@@ -1,0 +1,18 @@
+John successfully ran 400 meters.
+John passed the Treadmill (400 meters).
+John successfully jumped over 1.5 meters.
+John passed the Wall (1.5 meters).
+John failed to run 600 meters.
+John is out of the race.
+John is out of the race.
+
+Whiskers failed to run 400 meters.
+Whiskers is out of the race.
+Whiskers is out of the race.
+
+Robo successfully ran 400 meters.
+Robo passed the Treadmill (400 meters).
+Robo failed to jump 1.5 meters.
+Robo is out of the race.
+Robo is out of the race.
+
