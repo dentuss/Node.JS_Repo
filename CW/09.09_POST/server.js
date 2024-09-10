@@ -1,3 +1,5 @@
+'use strict'
+
 const http = require('http');
 const fs = require('fs');
 const qs = require('querystring');
@@ -35,7 +37,7 @@ const server = http.createServer((req, res) => {
 
 
             res.writeHead(200, { 'Content-Type': 'text/html' });
-            res.end(`<h1>Authorization Successful</h1><p>Welcome, ${formData.login}!</p>`);
+            res.end(`<p>Welcome, ${formData.login}!</p>`);
         });
     } else {
 
@@ -45,6 +47,6 @@ const server = http.createServer((req, res) => {
 });
 
 
-server.listen(3000, () => {
-    console.log('Server running at http://localhost:3000/');
+server.listen(8080, () => {
+    console.log('Server running at http://localhost:8080/');
 });
